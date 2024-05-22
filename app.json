@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tylerslater.reproduceexpovideoplaybackRateerror"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,6 +23,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-video"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7dc739b8-ead9-4847-91e9-9c022664e390"
+      }
     }
   }
 }

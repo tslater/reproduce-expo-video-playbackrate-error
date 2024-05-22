@@ -1,0 +1,12 @@
+{
+    "build": {
+      "simulator": {
+        "developmentClient": true,
+        "ios": {
+          "simulator": true
+        }
+      },
+      "production": {}
+    }
+  }
+  
