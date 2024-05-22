@@ -12,7 +12,7 @@ export function VideoPlayerTest() {
   const player = useVideoPlayer(videoSource, (player) => {
     player.loop = true;
     player.play();
-    // player.playbackRate = 0.7;
+    player.playbackRate = 0.7;
   });
 
   useEffect(() => {
